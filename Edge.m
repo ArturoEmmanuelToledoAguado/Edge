@@ -16,6 +16,7 @@ for i=1:7;
     figure(i)
     subplot(2,1,1)
     imshow(img)
+    title('Original')
     
     %for para los metodos
     for j=1:7
@@ -23,18 +24,22 @@ for i=1:7;
         if j<2
             subplot(2,1,2)
             imshow(Bw)
+            title(op(j))
         elseif j>=2 && j<4
             figure(i+7)
             subplot(2,1,j-1)
             imshow(Bw)
+            title(op(j))
         elseif j>=4 && j<6
             figure(i+14)
             subplot(2,1,j-3)
             imshow(Bw)
+            title(op(j))
         else
             figure(i+21)
             subplot(2,1,j-5)
             imshow(Bw)
+            title(op(j))
         end
     end
 end
