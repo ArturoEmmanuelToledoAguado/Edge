@@ -44,6 +44,7 @@ for i=1:7;
     end
 end
 
+%Propio
 % img=imread(ruta(1));
 % img=rgb2gray(img);
 % img=double(img);
