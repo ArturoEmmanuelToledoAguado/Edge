@@ -43,3 +43,20 @@ for i=1:7;
         end
     end
 end
+
+% img=imread(ruta(1));
+% img=rgb2gray(img);
+% img=double(img);
+% [f,c]=size(img)
+% mascaraX=[1,0,-1;2,0,2;1,0,-1]*1/4;
+% mascaraY=[-1,-2,-1;0,0,0;1,2,1]*1/4;
+% Gx=abs(imfilter(img,mascaraX,'conv'));
+% Gy=abs(imfilter(img,mascaraY,'conv'));
+% for i=1:f
+%     for j=1:c
+%         G(i,j)=sqrt(Gx(i,j).^2+Gy(i,j).^2);
+%     end
+% end
+% G=uint8(G);
+% figure()
+% imshow(G)
