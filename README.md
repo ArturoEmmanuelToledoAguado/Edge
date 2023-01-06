@@ -53,7 +53,7 @@ Hay otros operadores que tienen el mismo principio, sólo cambia el valor de una
 Los tres operadores pueden formularse de forma conjunta con las siguientes máscaras de convolución mostradas a continuación:
 
 $$
-Gradiente Horizontal ➡
+Gradiente Horizontal \Longrightarrow
 \frac{1}{2+k} 
 \begin{bmatrix}
 1 & 0 & -1\\
@@ -63,7 +63,7 @@ k & 0 & k\\
 $$
 
 $$
-Gradiente Vertical ➡
+Gradiente Vertical \Longrightarrow
 \frac{1}{2+k} 
 \begin{bmatrix}
 -1 & -k & -1\\
